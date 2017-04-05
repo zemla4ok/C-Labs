@@ -1,0 +1,6 @@
+F:\2kyrs\2sem\С#\lab\Lab4\Lab4\bin\Debug\Lab4.exe.config
+F:\2kyrs\2sem\С#\lab\Lab4\Lab4\bin\Debug\Lab4.exe
+F:\2kyrs\2sem\С#\lab\Lab4\Lab4\bin\Debug\Lab4.pdb
+F:\2kyrs\2sem\С#\lab\Lab4\Lab4\obj\Debug\Lab4.csprojResolveAssemblyReference.cache
+F:\2kyrs\2sem\С#\lab\Lab4\Lab4\obj\Debug\Lab4.exe
+F:\2kyrs\2sem\С#\lab\Lab4\Lab4\obj\Debug\Lab4.pdb

@@ -1,0 +1,12 @@
+F:\2kyrs\2sem\MathProg\labs\Lab1-2\Lab1-2\bin\Debug\Lab1-2.exe.config
+F:\2kyrs\2sem\MathProg\labs\Lab1-2\Lab1-2\bin\Debug\Lab1-2.exe
+F:\2kyrs\2sem\MathProg\labs\Lab1-2\Lab1-2\bin\Debug\Lab1-2.pdb
+F:\2kyrs\2sem\MathProg\labs\Lab1-2\Lab1-2\obj\Debug\Lab1-2.csprojResolveAssemblyReference.cache
+F:\2kyrs\2sem\MathProg\labs\Lab1-2\Lab1-2\obj\Debug\Lab1-2.exe
+F:\2kyrs\2sem\MathProg\labs\Lab1-2\Lab1-2\obj\Debug\Lab1-2.pdb
+F:\2kyrs\2sem\С#\lab\Lab1-2\Lab1-2\bin\Debug\Lab1-2.exe.config
+F:\2kyrs\2sem\С#\lab\Lab1-2\Lab1-2\obj\Debug\Lab1-2.exe
+F:\2kyrs\2sem\С#\lab\Lab1-2\Lab1-2\obj\Debug\Lab1-2.pdb
+F:\2kyrs\2sem\С#\lab\Lab1-2\Lab1-2\obj\Debug\Lab1-2.csprojResolveAssemblyReference.cache
+F:\2kyrs\2sem\С#\lab\Lab1-2\Lab1-2\bin\Debug\Lab1-2.exe
+F:\2kyrs\2sem\С#\lab\Lab1-2\Lab1-2\bin\Debug\Lab1-2.pdb

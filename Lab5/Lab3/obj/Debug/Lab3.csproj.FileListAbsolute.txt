@@ -1,0 +1,14 @@
+F:\2kyrs\2sem\CGaG\Labs\Lab3\Lab3\bin\Debug\Lab3.exe.config
+F:\2kyrs\2sem\CGaG\Labs\Lab3\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+F:\2kyrs\2sem\С#\lab\Lab3\Lab3\bin\Debug\Lab3.exe.config
+F:\2kyrs\2sem\С#\lab\Lab3\Lab3\bin\Debug\Lab3.exe
+F:\2kyrs\2sem\С#\lab\Lab3\Lab3\bin\Debug\Lab3.pdb
+F:\2kyrs\2sem\С#\lab\Lab3\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+F:\2kyrs\2sem\С#\lab\Lab3\Lab3\obj\Debug\Lab3.exe
+F:\2kyrs\2sem\С#\lab\Lab3\Lab3\obj\Debug\Lab3.pdb
+F:\2kyrs\2sem\С#\lab\Lab5\Lab3\bin\Debug\Lab3.exe.config
+F:\2kyrs\2sem\С#\lab\Lab5\Lab3\obj\Debug\Lab3.exe
+F:\2kyrs\2sem\С#\lab\Lab5\Lab3\obj\Debug\Lab3.pdb
+F:\2kyrs\2sem\С#\lab\Lab5\Lab3\bin\Debug\Lab3.exe
+F:\2kyrs\2sem\С#\lab\Lab5\Lab3\bin\Debug\Lab3.pdb
+F:\2kyrs\2sem\С#\lab\Lab5\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache

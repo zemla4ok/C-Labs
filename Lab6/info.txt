@@ -1,0 +1,29 @@
+Information about class Lab3.Java
+---Constructors---
+> Java
+> Java
+---Methods---
+> Method
+> WriteToFile
+> ToString
+> Cortage
+> NewVersion
+> DoReset
+> get_version
+> set_version
+> get_integerType
+> set_integerType
+> get_doubleType
+> set_doubleType
+> get_stringType
+> set_stringType
+> Equals
+> GetHashCode
+> GetType
+---Fields---
+> zu
+---Properties---
+> version
+> integerType
+> doubleType
+> stringType

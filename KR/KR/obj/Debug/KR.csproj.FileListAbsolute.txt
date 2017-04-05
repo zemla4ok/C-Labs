@@ -1,0 +1,6 @@
+F:\2kyrs\2sem\С#\lab\KR\KR\bin\Debug\KR.exe.config
+F:\2kyrs\2sem\С#\lab\KR\KR\bin\Debug\KR.exe
+F:\2kyrs\2sem\С#\lab\KR\KR\bin\Debug\KR.pdb
+F:\2kyrs\2sem\С#\lab\KR\KR\obj\Debug\KR.csprojResolveAssemblyReference.cache
+F:\2kyrs\2sem\С#\lab\KR\KR\obj\Debug\KR.exe
+F:\2kyrs\2sem\С#\lab\KR\KR\obj\Debug\KR.pdb
