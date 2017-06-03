@@ -1,0 +1,51 @@
+﻿<Window x:Class="Lab11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="422" Width="525">
+    <Grid>
+        <DataGrid x:Name="table" Height="200" Width="500" VerticalAlignment="Top">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="BI" Width="10"
+                                    Binding="{Binding Path=BookID}"/>
+                <DataGridTextColumn Header="Book Name" Width="110"
+                                    Binding="{Binding Path=BookName}"/>
+                <DataGridTextColumn Header="Pages" Width="50"
+                                    Binding="{Binding Path=Pages}"/>
+                <DataGridTextColumn Header="AI" Width="10"
+                                    Binding="{Binding Path=AuthID}"/>
+                <DataGridTextColumn Header="Author Name" Width="150"
+                                    Binding="{Binding Path=AuthorName}"/>
+                <DataGridTemplateColumn Header="Photo" Width="140">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Photo}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button  Content="Open Photo" Margin="174,214,262,0" Click="Open" Height="31" VerticalAlignment="Top"/>
+        <Label x:Name="cond" Content="not open" HorizontalContentAlignment="Center" Height="30" Margin="174,245,262,0" VerticalAlignment="Top"/>
+
+        <Label FontSize="14" Content="Author name" Height="30" Margin="271,313,155,0" VerticalAlignment="Top"/>
+        <Label FontSize="14" Content="Book name" Height="30" Margin="271,205,155,0" VerticalAlignment="Top"/>
+        <Label FontSize="14" Content="Pages" Height="30" Margin="271,279,155,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="bookName" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="367,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="authName" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="368,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="Pages" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="367,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+
+        <Button Content="Add Book" Height="30" Margin="174,293,276,0" Click="AddBook" VerticalAlignment="Top"/>
+        <Button Content="Add Auth" Height="30" Margin="174,351,276,0" Click="AddAuth" VerticalAlignment="Top"/>
+        <Button Content="Refresh" Height="30" Margin="0,214,441,0" Click="Refresh" VerticalAlignment="Top" HorizontalAlignment="Right" Width="68"/>
+        <TextBox x:Name="AuthId" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="368,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <Label FontSize="14" Content="Author ID" Height="30" Margin="271,351,155,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="BookID" FontSize="14" HorizontalAlignment="Left" Height="30" Margin="367,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+        <Label FontSize="14" Content="Book ID" Height="30" Margin="271,245,155,0" VerticalAlignment="Top"/>
+
+        <Button Click="DelAuth" Content="Del Auth" Height="30" Width="70" Margin="0,351,437,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <Button Click="DelBook" Content="Del Book" Height="30" Width="70" Margin="0,313,437,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <Button Click="UpdBook" Content="Upd Book" Height="30" Width="70" Margin="0,313,362,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <Button Click="UpdAuth" Content="Upd Auth" Height="30" Width="70" Margin="0,351,362,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+    </Grid>
+</Window>
