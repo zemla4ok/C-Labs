@@ -15,7 +15,6 @@ namespace SampleMVVM.ViewModels
     {
         public ObservableCollection<AviaViewModel> AviaList { get; set; } 
 
-
         public MainViewModel(List<Avia> reis)
         {
             AviaList = new ObservableCollection<AviaViewModel>(reis.Select(b => new AviaViewModel(b)));

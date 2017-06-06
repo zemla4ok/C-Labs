@@ -5,33 +5,18 @@ using System.Windows.Input;
 
 namespace SampleMVVM.Commands
 {
-    /// <summary>
-    ///     This class allows delegating the commanding logic to methods passed as parameters,
-    ///     and enables a View to bind commands to objects that are not part of the element tree.
-    /// </summary>
     public class DelegateCommand : ICommand
     {
         #region Constructors
 
-        /// <summary>
-        ///     Constructor
-        /// </summary>
         public DelegateCommand(Action executeMethod)
             : this(executeMethod, null, false)
         {
         }
-
-        /// <summary>
-        ///     Constructor
-        /// </summary>
         public DelegateCommand(Action executeMethod, Func<bool> canExecuteMethod)
             : this(executeMethod, canExecuteMethod, false)
         {
         }
-
-        /// <summary>
-        ///     Constructor
-        /// </summary>
         public DelegateCommand(Action executeMethod, Func<bool> canExecuteMethod, bool isAutomaticRequeryDisabled)
         {
             if (executeMethod == null)
@@ -48,9 +33,6 @@ namespace SampleMVVM.Commands
 
         #region Public Methods
 
-        /// <summary>
-        ///     Method to determine if the command can be executed
-        /// </summary>
         public bool CanExecute()
         {
             if (_canExecuteMethod != null)
@@ -59,10 +41,6 @@ namespace SampleMVVM.Commands
             }
             return true;
         }
-
-        /// <summary>
-        ///     Execution of the command
-        /// </summary>
         public void Execute()
         {
             if (_executeMethod != null)
@@ -70,10 +48,6 @@ namespace SampleMVVM.Commands
                 _executeMethod();
             }
         }
-
-        /// <summary>
-        ///     Property to enable or disable CommandManager's automatic requery on this command
-        /// </summary>
         public bool IsAutomaticRequeryDisabled
         {
             get
@@ -96,18 +70,10 @@ namespace SampleMVVM.Commands
                 }
             }
         }
-
-        /// <summary>
-        ///     Raises the CanExecuteChaged event
-        /// </summary>
         public void RaiseCanExecuteChanged()
         {
             OnCanExecuteChanged();
         }
-
-        /// <summary>
-        ///     Protected virtual method to raise CanExecuteChanged event
-        /// </summary>
         protected virtual void OnCanExecuteChanged()
         {
             CommandManagerHelper.CallWeakReferenceHandlers(_canExecuteChangedHandlers);
@@ -117,9 +83,6 @@ namespace SampleMVVM.Commands
 
         #region ICommand Members
 
-        /// <summary>
-        ///     ICommand.CanExecuteChanged implementation
-        /// </summary>
         public event EventHandler CanExecuteChanged
         {
             add
@@ -162,11 +125,6 @@ namespace SampleMVVM.Commands
         #endregion
     }
 
-    /// <summary>
-    ///     This class allows delegating the commanding logic to methods passed as parameters,
-    ///     and enables a View to bind commands to objects that are not part of the element tree.
-    /// </summary>
-    /// <typeparam name="T">Type of the parameter passed to the delegates</typeparam>
     public class DelegateCommand<T> : ICommand
     {
         #region Constructors
@@ -328,10 +286,6 @@ namespace SampleMVVM.Commands
         #endregion
     }
 
-    /// <summary>
-    ///     This class contains methods for the CommandManager that help avoid memory leaks by
-    ///     using weak references.
-    /// </summary>
     internal class CommandManagerHelper
     {
         internal static void CallWeakReferenceHandlers(List<WeakReference> handlers)

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CodeFirst;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,17 @@ namespace Lab12
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void AddToDB(object sender, RoutedEventArgs e)
+        {
+            Customer customer = new Customer();
+            customer.Name = name.Text;
+            customer.Email = email.Text;
+            customer.Age = Convert.ToInt32(age.Text);
+            SampleContext context = new SampleContext();
+            context.Customers.Add(customer);
+            context.SaveChanges();
         }
     }
 }
